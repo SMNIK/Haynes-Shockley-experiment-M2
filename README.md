@@ -14,7 +14,7 @@ In the original H-S experiment an electric field is created along a small bar of
 >holes.
 >- measuring of carrier's lifetime.
 
-![image](./images/image.jpg)
+![image](./image/image.jpg)
 >Block diagram for optical injection and point-contact collector
 
 Important fields are: ***lifetime, drift velocity, electric field***
