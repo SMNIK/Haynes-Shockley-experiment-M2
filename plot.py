@@ -15,6 +15,7 @@ first = pd.read_excel(r'/Book1.xlsx', 'sheet1')
 x = first['x'][500:4000]
 y = first['y'][500:4000]
 
+plt.plot(x,y)
 plt.xlabel('Time (\u03BC s) \n Set of pulses collected at constant d=0.35cm, by varying the sweeping voltage $V_{s}$')
 plt.ylabel('Voltage (v)')
 plt.title('non-fit')
