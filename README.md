@@ -76,4 +76,4 @@ The below configuration, explains how to use the codes and change them for your 
 > the 3 simple steps
 
 1) The first step is prepaire the excel file ready as the x and y column's header.Then, plot your data by colling matplot library ([plot.py](https://github.com/SMNIK/Haynes-Shockley-experiment-M2/blob/master/plot.py)). 
-2) The plot shows us the peak of minority mobility of sample that is voltage per time. As we know, these data involves noises and we need to excract the usful data. Use one of the fit configurations and calculate the coefficients. Here I used the [Gaussian](https://en.wikipedia.org/wiki/Gaussian_function) fit (([fit-plot.py](https://github.com/SMNIK/Haynes-Shockley-experiment-M2/blob/master/fit-plot.py))).
+2) The plot shows us the peak of minority mobility of sample that is voltage per time. As we know, these data involves noises and we need to excract the usful data. Use one of the fit configurations and calculate the coefficients. Here I used the [Gaussian](https://en.wikipedia.org/wiki/Gaussian_function) fit ([fit-plot.py](https://github.com/SMNIK/Haynes-Shockley-experiment-M2/blob/master/fit-plot.py)).
