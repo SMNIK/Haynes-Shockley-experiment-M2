@@ -91,6 +91,6 @@ The below configuration, explains how to use the codes and change them for your 
 > in M1 you should calculate each voltage in seperat file, but M2 calculate all sheets (voltages) in on touche.
 > because of seperating files in M1, you can change each part as you prefer, but in M2 may be appeares error.
 > M1 is a sample of how the libraries in python work, for example we call plotting inside the fitPlot. However, in M2 it is not the same. The benefites of this method is that may be our library would be useful for other users.
-> [Module 2](https://github.com/SMNIK/Haynes-Shockley-experiment-M2)
+> [Module 1](https://github.com/SMNIK/Haynes-Shockley-experiment-M1)
 
 ***At the end some results***
