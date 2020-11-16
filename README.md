@@ -95,7 +95,7 @@ The below configuration, explains how to use the codes and change them for your 
 
 ***At the end some results***
 
-![image](./images/peaks-and-fits.png)
+![image](https://github.com/SMNIK/Haynes-Shockley-experiment-M2/blob/master/image/peaks-and-fits.png)
 
 ![image](./images/analyses.png)
 
