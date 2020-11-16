@@ -9,7 +9,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # first = pd.read_excel(<address and name of your file>,<name of the sheet>)
-first = pd.read_excel(r'/Book1.xlsx', 'sheet1')
+first = pd.read_excel(r'D:/total-datas.xlsx', '20.9v')
 
 # x = first['<name of the column>'][<index from>:<to>]
 x = first['x'][500:4000]
