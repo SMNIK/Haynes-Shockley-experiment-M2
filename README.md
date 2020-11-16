@@ -94,3 +94,9 @@ The below configuration, explains how to use the codes and change them for your 
 > [Module 1](https://github.com/SMNIK/Haynes-Shockley-experiment-M1)
 
 ***At the end some results***
+
+![image](./images/peaks-and-fits.png)
+
+![image](./images/analyses.png)
+
+![image](./images/t-lnA.png)
