@@ -8,7 +8,7 @@ Created on Sun Nov 15 15:30:42 2020
 import numpy as np
 from plotting import x , y , mean , alpha 
 from scipy.optimize import curve_fit
-import matplotlib.pylab as plt
+import matplotlib.pyplot as plt
 
 def gauss(x,a,b,alpha):
     return (a*np.exp(-0.5*((x-b)/alpha)**2))
