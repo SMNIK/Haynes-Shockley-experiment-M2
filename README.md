@@ -97,6 +97,6 @@ The below configuration, explains how to use the codes and change them for your 
 
 ![image](https://github.com/SMNIK/Haynes-Shockley-experiment-M2/blob/master/image/peaks-and-fits.png)
 
-![image](./images/analyses.png)
+![image](https://github.com/SMNIK/Haynes-Shockley-experiment-M2/blob/master/image/analyses.png)
 
-![image](./images/t-lnA.png)
+![image](https://github.com/SMNIK/Haynes-Shockley-experiment-M2/blob/master/image/t-lnA.png)
