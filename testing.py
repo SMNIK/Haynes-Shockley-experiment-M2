@@ -9,6 +9,9 @@ import pandas as pd
 from fitPlot1 import myList1
 from fitPlot2 import myList2
 from fitPlot3 import myList3
+from fitPlot4 import myList4
+from fitPlot5 import myList5
+from fitPlot6 import myList6
 import xlsxwriter
 import matplotlib.pyplot as plt
 from scipy import polyfit , polyval
@@ -33,6 +36,15 @@ def getExcel():
         elif I[SMN]==28.1:
             for j in range(8):
                 worksheet_analyses.write(3,j,myList3[j])
+        elif I[SMN]==36.4:
+            for j in range(8):
+                worksheet_analyses.write(4,j,myList4[j])
+        elif I[SMN]==44.7:
+            for j in range(8):
+                worksheet_analyses.write(5,j,myList5[j])
+        elif I[SMN]==50:
+            for j in range(8):
+                worksheet_analyses.write(6,j,myList6[j])
         else:
             pass
         print(I[SMN])
