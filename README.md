@@ -96,7 +96,7 @@ y_2 = second['y'][500:4000]
 plt.plot(x_1,y_1)
 plt.plot(x_2,y_2)
 ```
-And the same, change the coefficients' names. Or, you can prepare different file for each voltage. Just be careful, by choosing as each way the lunch process should be changed inside the next files.
+And the same, change the coefficients' names, and change the x & y inside the fitPlot to x_1 & y_1 and repeat the gaussian for the second one and so on. Or, you can prepare different files for each voltage (for example fit1.py, fit2.py,... and the same for the next files). Just be careful, by choosing as each way the lunch process should be changed inside the next files.
  You could use the [Module 1](https://github.com/SMNIK/Haynes-Shockley-experiment-M1), however, in conclusion I will explaine the differences.
 - As we know, in this experiment, data contains noise of staffs, so, we need to prepare the fit result as the new data for calculating the mobility, mean free path, and fly time. From [fitPlot.py](https://github.com/SMNIK/Haynes-Shockley-experiment-M2/blob/master/fitPlot.py), call your data and then you can fit the peaks by Gaussian method and extract the coefficients for calculation. As I said above, for each voltage you should be careful for lunching.
 - And in [coefficientsTable.py](https://github.com/SMNIK/Haynes-Shockley-experiment-M2/blob/master/coefficientsTable.py), call the coefficients, check if the name of sheet is true, prepare the new excel file and extract your fit's data in different index. And, plot the logarithmic Area per time to modify the fit line for different voltage.
